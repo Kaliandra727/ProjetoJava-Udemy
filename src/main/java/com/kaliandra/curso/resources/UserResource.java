@@ -11,9 +11,9 @@ import com.kaliandra.curso.entities.User;
 @RequestMapping(value = "/users")
 public class UserResource {
 
-	@GetMapping
+	/*@GetMapping
 	public ResponseEntity<User> findAll() {
-		User u = new User(1, "Maria", "maria@gmail.com", "95555555", "1234");
+		//User u = new User(1, "Maria", "maria@gmail.com", "95555555", "1234");
 		return ResponseEntity.ok().body(u);
-	}
+	}*/
 }
