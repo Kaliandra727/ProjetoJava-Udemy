@@ -29,6 +29,8 @@ public class Order implements Serializable {
 	
 	private Integer orderStatus;
 	
+	private Product items;
+	
 	@ManyToOne
 	@JoinColumn(name = "cient_id")
 	private User client;
